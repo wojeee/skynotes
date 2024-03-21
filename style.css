@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
 }
 
 /* Hero Section Styles */
@@ -50,7 +51,6 @@ body {
 
 /* Features Section Styles */
 .features-section {
-    background-color: #f8f9fa; /* Light gray background similar to the example */
     padding-top: 60px; /* Top padding */
     padding-bottom: 60px; /* Bottom padding */
 }
@@ -78,9 +78,16 @@ body {
 
 /* Testimonials Section Styles */
 .testimonials-section {
-    background-color: #33AEFF; 
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.testimonial-title {
+    color: #333; /* White color for the title */
+    font-size: 2rem; /* Larger font size */
+    font-weight: bold; /* Make title bold */
+    text-align: center; /* Center align the title */
+    margin-bottom: 30px; /* Spacing between title and carousel */
 }
 
 .testimonialCarousel .carousel-item {
@@ -111,7 +118,6 @@ body {
 
 /* Counting Stats Section Styles */
 .counting-stats-section {
-    background-color: #f8f9fa;
     padding: 60px 0;
 }
 
@@ -140,6 +146,34 @@ body {
 .img-fluid {
     max-width: 100%;
     height: auto;
+}
+
+/* CTA Section Styles */
+.cta-section {
+    background-color: #0056b3; /* Replace with your brand color */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.cta-heading {
+    margin-bottom: 25px;
+    font-size: 2.5rem; /* Large font size for impact */
+}
+
+.lead {
+    margin-bottom: 35px;
+    font-size: 1.3rem; /* A slightly larger font size for the description */
+}
+
+/* This assumes you want a light button which stands out against the CTA background */
+.btn-light {
+    color: #0056b3; /* Text color to match the CTA section's background */
+    background-color: #e2d135;
+}
+
+.btn-light:hover {
+    color: #fff; /* White text on hover */
+    background-color: #004494; /* Slightly darker background on hover */
 }
 
 
