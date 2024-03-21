@@ -1,0 +1,166 @@
+/* Custom styles for Skyward Notes landing page */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background: linear-gradient(to right, #0062E6, #33AEFF); /* A nice gradient */
+    color: #fff;
+    padding: 2rem 1rem;
+    position: relative;
+    text-align: center;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 700px; /* or the width you prefer */
+    margin-top: 2rem; /* Spacing between the CTA button and the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-heading {
+    font-size: 2.5rem; /* Larger font size */
+    font-weight: bold;
+    margin-bottom: 20px; /* Spacing between heading and subheading */
+}
+
+.hero-subheading {
+    font-size: 1.5rem; /* Subheading size */
+    margin-bottom: 30px; /* Spacing between subheading and CTA */
+}
+
+.hero-cta {
+    padding: 15px 30px; /* Larger button for better visibility */
+    border: none;
+    font-size: 1.2rem; /* Larger font size for CTA text */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+    background-color: #e2d135; /* Dark gray color for the button */
+    color: #333; /* Light gray color for the text */
+}
+
+.hero-cta:hover {
+    background-color: #0056b3; /* Darker shade on hover for better interaction */
+}
+
+
+/* Features Section Styles */
+.features-section {
+    background-color: #f8f9fa; /* Light gray background similar to the example */
+    padding-top: 60px; /* Top padding */
+    padding-bottom: 60px; /* Bottom padding */
+}
+
+.feature-card {
+    margin-bottom: 30px; /* Spacing between cards */
+    border: none; /* Remove card border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.feature-icon {
+    width: 80px; /* Fixed icon size, can be adjusted */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Spacing between icon and title */
+}
+
+.card-title {
+    color: #333; /* Dark gray color for the title */
+    font-weight: bold; /* Make title bold */
+}
+
+.card-text {
+    color: #666; /* Medium gray color for the text */
+}
+
+/* Testimonials Section Styles */
+.testimonials-section {
+    background-color: #33AEFF; 
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.testimonialCarousel .carousel-item {
+    margin-bottom: 30px;
+}
+
+.blockquote {
+    padding: 1.25rem;
+    position: relative;
+    border: none;
+}
+
+.blockquote::after {
+    content: '\201C'; /* Unicode character for the closing double quote */
+    font-size: 5em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: #e9ecef; /* Light color for the large quote */
+    z-index: -1;
+}
+
+.blockquote-footer {
+    color: #555;
+    font-style: italic;
+}
+
+/* Counting Stats Section Styles */
+.counting-stats-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.stats-title {
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stat-item {
+    text-align: center;
+}
+
+.stat-item h3 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.stat-item p {
+    color: #666;
+}
+
+/* Ensure the image is responsive */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.footer {
+    padding: 20px 0;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .feature-icon {
+        width: 60px; 
+    }
+
+    .stat-item {
+        margin-bottom: 20px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .feature-card {
+        margin-bottom: 20px; /* Spacing between cards */
+        flex: 0 0 100%;
+        max-width: 100%;    }
+}
